@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="py-5">
+    <nav class="py-4">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="my_logo-container">
                 <img src="../assets/classic_shop_logo2x.png" alt="brand logo">
@@ -125,10 +125,10 @@
     .my_button {
         border: none;
         text-transform: uppercase;
-        font-size: .85rem;
+        font-size: .75rem;
         font-weight: 700;
         color: white;
-        padding: .5rem 1rem;
+        padding: .7rem 1.4rem;
         border-radius: 30px;
         background-color: #427ed1;
 
