@@ -91,12 +91,13 @@
 <style lang="scss" scoped>
 
     .navbar {
+        border-top: 3px solid #427ed1;
         border-bottom: 1px solid #d1d1d1;
     }
 
     .my_socials {
         padding: .2rem 0;
-        gap: 1rem;
+        gap: 1.3rem;
 
         a {
             color: #494949;
