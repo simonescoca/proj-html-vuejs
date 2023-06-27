@@ -30,7 +30,21 @@
 
             <div class="d-flex justify-content-between my_cards-container">
                 <div v-for="card in shopWindow[activeIndex]" class="card">
-                    <img :src="card.img" class="card-img-top" :alt="card.title">
+                    <div class="my_img-container">
+                        <img :src="card.img" class="card-img-top" :alt="card.title">
+                        <div class="d-flex my_card-hover">
+                            <div class="m-auto my_card-infos">
+                                <p class="m-0 d-flex align-items-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Add to cart
+                                </p>
+                                <p class="m-0 d-flex align-items-center">
+                                    <i class="fa-solid fa-bars"></i>
+                                    Details
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">
                             {{ card.title }}
@@ -238,6 +252,35 @@
     .card {
         width: 18rem;
         --bs-card-border-width: 0;
+    }
+    
+    .my_img-container {
+        position: relative;
+        
+        &:hover .my_card-hover{
+            top: 0;
+    
+            * {
+                display: block;
+            }
+        }
+    }
+
+    .my_card-hover {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(#3878d3d3, #f67c4bcf);
+        color: white;
+
+        * {
+            display: none;
+        }
+    }
+
+    .my_card-infos p {
+        gap: .7rem;
     }
 
     .my-price-container {
