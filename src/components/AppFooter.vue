@@ -1,18 +1,23 @@
 <template>
 
     <footer>
-        <div class="container">
-            
-        </div>
+        <EmailSub />
+        <RandomInfos />
+        <CopyrightPayments />
     </footer>
 
 </template>
 
 <script>
+    import EmailSub from './EmailSub.vue';
+    import RandomInfos from './RandomInfos.vue';
+    import CopyrightPayments from './CopyrightPayments.vue';
 
     export default {
         components: {
-
+            EmailSub,
+            RandomInfos,
+            CopyrightPayments
         },
 
         data() {
