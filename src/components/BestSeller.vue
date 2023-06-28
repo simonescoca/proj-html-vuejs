@@ -168,7 +168,7 @@
                         this.offIndex++
                     }
                 }
-                
+
                 this.cards[this.offIndex].active = false
             }
         },
@@ -176,6 +176,11 @@
 </script>
 
 <style lang="scss" scoped>
+
+    section {
+        margin-bottom: 9rem;
+    }
+
     .my_sect-title-container {
         gap: 1.3rem;
         margin-bottom: 1.5rem;
