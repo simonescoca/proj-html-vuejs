@@ -198,6 +198,10 @@
 
 <style lang="scss" scoped>
 
+    section {
+        margin-bottom: 9rem;
+    }
+
     .my_sect-title-container {
         gap: 1.3rem;
         margin-bottom: 1.5rem;
