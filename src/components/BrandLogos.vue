@@ -82,7 +82,7 @@
 
                 this.logos[this.activeIndex].active = true
                 this.logos[this.offIndex].active = false
-            }, 1000)
+            }, 5000)
         },
 
         mounted() {
