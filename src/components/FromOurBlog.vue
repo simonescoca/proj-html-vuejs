@@ -95,7 +95,7 @@
 <style lang="scss" scoped>
 
     section {
-        margin-bottom: 9rem;
+        margin-bottom: 6rem;
     }
 
     .my_sect-title-container {
