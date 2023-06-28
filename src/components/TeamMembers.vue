@@ -85,6 +85,7 @@
         background-position: center;
         background-size: cover;
         padding: 8rem 0;
+        margin-bottom: 9rem;
     }
 
     .my_infos-show {
@@ -107,6 +108,7 @@
         width: 15px;
         border: 2px solid white;
         border-radius: 50%;
+        cursor: pointer;
     }
 
     .my_fill-bg {
