@@ -9,6 +9,7 @@
         <TeamMembers />
         <FromOurBlog />
         <BottomCategories />
+        <BrandLogos />
     </main>
 
 </template>
@@ -22,6 +23,7 @@
     import TeamMembers from './TeamMembers.vue';
     import FromOurBlog from './FromOurBlog.vue';
     import BottomCategories from './BottomCategories.vue';
+    import BrandLogos from './BrandLogos.vue';
 
     export default {
         components: {
@@ -32,7 +34,8 @@
             NewArrivals,
             TeamMembers,
             FromOurBlog,
-            BottomCategories
+            BottomCategories,
+            BrandLogos
         },
 
         data() {
